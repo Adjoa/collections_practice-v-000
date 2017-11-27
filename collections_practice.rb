@@ -25,9 +25,9 @@ def swap_elements(array)
 end
 
 def reverse_array(array)
-  i = array.length
+  i = array.length - 1
   reversed_array = []
-  while i > 0
+  while i >= 0
     reversed_array << array[i]
     i -= 1
   end
