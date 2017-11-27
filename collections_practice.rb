@@ -10,8 +10,8 @@ def sort_array_desc(array)
   end
 end
 
-def sort_array_char_count(string_array)
-  string_array.sort do |x, y|
+def sort_array_char_count(strings)
+  strings.sort do |x, y|
     x.length <=> y.length
   end
 end
@@ -55,4 +55,8 @@ def find_a(array)
   end
 
   starts_with_a
+end
+
+def sum_array(array)
+
 end
