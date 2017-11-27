@@ -62,7 +62,7 @@ def sum_array(array)
 end
 
 def add_s(array)
-  [0,2,3].each_with_index.collect do |element, index|
+  array.each_with_index.collect do |element, index|
     array[index] << "s"
   end
 end
