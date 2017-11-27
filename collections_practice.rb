@@ -25,11 +25,24 @@ def swap_elements(array)
 end
 
 def reverse_array(array)
-  i = array.length - 1
   reversed_array = []
+  i = array.length - 1
+
   while i >= 0
     reversed_array << array[i]
     i -= 1
   end
+
   reversed_array
+end
+
+def kesha_maker(array)
+  kesha_ed_strings = []
+
+  array.each do |string|
+    string[2] = $
+    kesha_ed_strings << string
+  end
+
+  kesha_ed_strings
 end
