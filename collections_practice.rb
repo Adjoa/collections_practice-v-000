@@ -52,4 +52,7 @@ def find_a(array)
 
   array.each do |string|
     starts_with_a << string if string.start_with?('a')
+  end
+
+  starts_with_a
 end
