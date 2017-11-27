@@ -66,6 +66,8 @@ def add_s(array)
       puts "#{element} #{index}"
       if index != 1
       array[index] << "s"
+    else
+      array[index]
     end
   end
 end
