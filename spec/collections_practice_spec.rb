@@ -31,12 +31,12 @@ describe 'collections practice' do
   end
 
   # Question 4 Advanced
-  describe '#swap_elements_from_to' do
-    it 'swap elements in an array based on indices given' do
-      expect(swap_elements_from_to(["a", "b", "c"], 0, 2)).to eq(["c", "b", "a"])
-    end
-  end
-  
+  # describe '#swap_elements_from_to' do
+  #   it 'swap elements in an array based on indices given' do
+  #     expect(swap_elements_from_to(["a", "b", "c"], 0, 2)).to eq(["c", "b", "a"])
+  #   end
+  # end
+
   end
   # Question 5
   describe '#reverse_array' do
