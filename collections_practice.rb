@@ -63,6 +63,7 @@ end
 
 def add_s(array)
   array.each_with_index.collect do |element, index|
-      array[index] << "s" unless index = 1
+    puts "#{element} #{index}"
+      array[index] << "s"
   end
 end
