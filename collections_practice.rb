@@ -63,7 +63,7 @@ end
 
 def add_s(array)
   array.each_with_index.collect do |element, index|
-    puts "#{element} #{index}"
+      puts "#{element} #{index}"
       array[index] << "s"
   end
 end
