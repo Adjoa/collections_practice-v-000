@@ -28,49 +28,49 @@ end
 #   temp = array[from]
 #   array[from] = array[to]
 #   array[to] = temp
-# 
+#
 #   array
 # end
-
-def reverse_array(array)
-  reversed_array = []
-  i = array.length - 1
-
-  while i >= 0
-    reversed_array << array[i]
-    i -= 1
-  end
-
-  reversed_array
-end
-
-def kesha_maker(array)
-  kesha_ed_strings = []
-
-  array.each do |string|
-    string[2] = '$'
-    kesha_ed_strings << string
-  end
-
-  kesha_ed_strings
-end
-
-def find_a(array)
-  starts_with_a = []
-
-  array.each do |string|
-    starts_with_a << string if string.start_with?('a')
-  end
-
-  starts_with_a
-end
-
-def sum_array(array)
-  array.inject { |sum, n| sum + n }
-end
-
-def add_s(array)
-  array.each_with_index.collect do |element, index|
-    index !=1 ?  element << "s" : element
-  end
-end
+#
+# def reverse_array(array)
+#   reversed_array = []
+#   i = array.length - 1
+#
+#   while i >= 0
+#     reversed_array << array[i]
+#     i -= 1
+#   end
+#
+#   reversed_array
+# end
+#
+# def kesha_maker(array)
+#   kesha_ed_strings = []
+#
+#   array.each do |string|
+#     string[2] = '$'
+#     kesha_ed_strings << string
+#   end
+#
+#   kesha_ed_strings
+# end
+#
+# def find_a(array)
+#   starts_with_a = []
+#
+#   array.each do |string|
+#     starts_with_a << string if string.start_with?('a')
+#   end
+#
+#   starts_with_a
+# end
+#
+# def sum_array(array)
+#   array.inject { |sum, n| sum + n }
+# end
+#
+# def add_s(array)
+#   array.each_with_index.collect do |element, index|
+#     index !=1 ?  element << "s" : element
+#   end
+# end
